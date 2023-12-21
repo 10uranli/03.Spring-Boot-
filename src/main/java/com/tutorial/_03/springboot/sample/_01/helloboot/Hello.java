@@ -4,6 +4,9 @@ public class Hello {
     private String name;
     private String message;
 
+    public Hello() {
+    }
+
     public Hello(String name, String message) {
         this.name = name;
         this.message = message;
